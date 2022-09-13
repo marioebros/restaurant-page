@@ -1,1 +1,1 @@
-console.log("Issa my restaurant page, yo!");
+console.log("Issa my restaurant page, yo!"),document.getElementById("defaultOpen").click();
