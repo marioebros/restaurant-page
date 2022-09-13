@@ -4,31 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Osteria Don Elizalde</title>
+    <title>G's</title>
   </head>
   <body>
     <header id="home">
-      <h1 id="home">Osteria Don Mario</h1>
-      <nav>
+      <h1 id="home">G's</h1>
+
+      <button class="tablink" onclick="openPage('G`s', this, 'red')">
+        Home
+      </button>
+      <button
+        class="tablink"
+        onclick="openPage('Menu', this, 'green')"
+        id="defaultOpen"
+      >
+        News
+      </button>
+      <button class="tablink" onclick="openPage('About', this, 'blue')">
+        Contact
+      </button>
+      <button
+        class="tablink"
+        onclick="openPage('Reservations', this, 'orange')"
+      >
+        About
+      </button>
+
+      <div id="home" class="cover"></div>
+      <div id="menu" class="cover">Menu</div>
+      <div id="about" class="cover">About</div>
+      <div id="reserve" class="cover">Reservations</div>
+
+      <!-- <ul id="tabs">
+        <li><a href="#about">About JavaScript tabs</a></li>
+        <li><a href="#advantages">Advantages of tabs</a></li>
+        <li><a href="#usage">Using tabs</a></li>
+      </ul> -->
+      <!-- <nav>
         <div id="home" class="cover"></div>
         <div id="menu" class="cover">Menu</div>
         <div id="about" class="cover">About</div>
         <div id="reserve" class="cover">Reservations</div>
-      </nav>
+      </nav> -->
     </header>
     <div id="content"></div>
 
-    <div id="menuPage">
+    <div id="menu" class="tabcontent">
       <h3>Lunch</h3>
       <h3>Dinner</h3>
     </div>
 
-    <div id="aboutPage">
+    <div id="about" class="tabcontent">
       <h3>Using only the freshest ingredients, every time.</h3>
       <p></p>
     </div>
 
-    <div id="reservePage">
+    <div id="reserve" class="tabcontent">
       <h2>Reservations</h2>
       <h3>Book a table</h3>
       <form action="" method="get" class="reservation">
@@ -59,5 +90,20 @@
       </ul>
     </footer>
     <script src="main.js"></script>
+    <script type="text/javascript">
+      const tabs = document.querySelectorAll("[data-tab-value]");
+      const tabInfos = document.querySelectorAll("[data-tab-info]");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const target = document.querySelector(tab.dataset.tabValue);
+
+          tabInfos.forEach((tabInfo) => {
+            tabInfo.classList.remove("active");
+          });
+          target.classList.add("active");
+        });
+      });
+    </script>
   </body>
 </html>
