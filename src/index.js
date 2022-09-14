@@ -1,4 +1,6 @@
 import _ from "lodash";
+import "./style.css";
+import Icon from "./pinar-kucuk-Ae7jQFDTPk4-unsplash.jpeg";
 
 console.log("Issa my restaurant page, yo!");
 
@@ -7,6 +9,13 @@ function component() {
 
   // Lodash, now imported by this script
   element.innerHTML = _.join(["Hello", "webpack"], " ");
+  element.classList.add("hello");
+
+  // Add the image to our existing div.
+  const myIcon = new Image();
+  myIcon.src = Icon;
+
+  element.appendChild(myIcon);
 
   return element;
 }
