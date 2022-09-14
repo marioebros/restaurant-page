@@ -1,8 +1,8 @@
 import _ from "lodash";
 import "./style.css";
 import Icon from "./pinar-kucuk-Ae7jQFDTPk4-unsplash.jpeg";
-
-console.log("Issa my restaurant page, yo!");
+import Data from "./data.xml";
+import Notes from "./data.csv";
 
 function component() {
   const element = document.createElement("div");
@@ -16,6 +16,10 @@ function component() {
   myIcon.src = Icon;
 
   element.appendChild(myIcon);
+
+  console.log(Data);
+  console.log(Notes);
+  console.log("Issa my restaurant page, yo!");
 
   return element;
 }
