@@ -2,53 +2,17 @@
 body {
     height: 100%;
     margin: 0;
-    font-family: Arial;
     background-color: rgb(80, 53, 53);
   }
 
   #content {
-    /* display: flex; */
+    display: flex;
     min-height: 100vh;
     margin: 0px;
     padding: 0px;
-    /* justify-content: center; */
+    justify-content: center;
     text-align: center;
   }
-
-  .top-image {
-    margin: 25px;
-  }
-  
-  /* /* Style tab links 
-  .tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
-  }
-  
-  .tablink:hover {
-    background-color: #777;
-  }
-  
-  /* Style the tab content (and add height:100% for full page content) 
-  .tabcontent {
-    color: white;
-    display: none;
-    padding: 100px 20px;
-    height: 100%;
-  }
-  
-  #Home {background-color: red;}
-  #News {background-color: green;}
-  #Contact {background-color: blue;}
-  #About {background-color: orange;} */
-
 
 .landing-page {
   margin: 25px;
@@ -56,4 +20,5 @@ body {
 
 .landing-page-copy {
   color: whitesmoke;
+  font-family: Arial;
 }
