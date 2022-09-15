@@ -1,13 +1,4 @@
-/* import _ from "lodash";
+import * as module from "./landing-page-load.js";
 
-function component() {
-  const element = document.createElement("div");
-
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
-
-  return element;
-}
-
-document.body.appendChild(component());
- */
 console.log("This is my console.log statement from /src/index.js");
+module.landingPageLoad();
