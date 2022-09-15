@@ -1,4 +1,4 @@
-import _ from "lodash";
+/* import _ from "lodash";
 
 function component() {
   const element = document.createElement("div");
@@ -9,5 +9,5 @@ function component() {
 }
 
 document.body.appendChild(component());
-
+ */
 console.log("This is my console.log statement from /src/index.js");
