@@ -1,22 +1,54 @@
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body {
     background-color: rgb(80, 53, 53, 0.5);
-  }
-
-  #content {
-    display: flex;
-    min-height: 100vh;
     margin: 0px;
     padding: 0px;
-    justify-content: center;
-    text-align: center;
   }
+
+ #content {
+  /* display: flex; */
+     min-height: 100vh;
+   /* justify-content: center; */
+   text-align: center;
+}
+
+.image {
+  margin: 25px;
+}
 
 .landing-page {
   margin: 25px;
 }
 
-.landing-page-copy {
+.landing-page-copy, .menu-copy, .contact-copy {
   color: whitesmoke;
   font-family: Arial;
+}
+
+header {
+  background-color: aqua;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  height: 50px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  border-radius: 5px 5px 25px 25px;
+  border-top: 2.5px solid black;
+  border-right: 2.5px solid black;
+  border-left: 2.5px solid black;
+  cursor: pointer;
 }
