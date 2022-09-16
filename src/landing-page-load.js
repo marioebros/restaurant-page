@@ -1,13 +1,18 @@
 export function landingPageLoad() {
   const contentDiv = document.querySelector("#content");
+
+  // Remove any existing DOM children, if present
+  contentDiv.replaceChildren();
+
+  //DOM for Heading
   const heading = document.createElement("h1");
   heading.textContent = "Welcome to G's";
   heading.classList.add("landing-title");
   contentDiv.appendChild(heading);
 
   const mainPic = document.createElement("img");
-  mainPic.classList.add("main-pic");
-  mainPic.src = "../src/assets/";
+  mainPic.classList.add("image");
+  mainPic.src = "../src/assets/kayleigh-harrington-yhn4okt6ci0-unsplash.jpeg";
   mainPic.alt = "Image of G's Restaurant";
   contentDiv.appendChild(mainPic);
 
