@@ -16,6 +16,11 @@ body {
   margin: 25px;
 }
 
+#mainPic {
+  height: 750px;
+  background: transparent;
+}
+
 .landing-page {
   margin: 25px;
 }
