@@ -45,7 +45,7 @@ nav{
   width: 100%;
   height: 100vh;
   height: calc(100vh - 50px);
-  background: linear-gradient(rgba(8, 199, 247, 0.658), rgba(180, 36, 16, 0.356)), url(images/banner.jpg) center no-repeat;
+  background: linear-gradient(rgba(8, 199, 247, 0.658), rgba(180, 36, 16, 0.356)), url(assets/kayleigh-harrington-yhn4okt6ci0-unsplash.jpeg) center no-repeat;
   background-size: cover;
   position: relative;
 }
