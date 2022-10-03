@@ -1,17 +1,27 @@
-import { landingPageLoad } from "./landing-page-load.js";
-import { menu } from "./menu.js";
-import { contact } from "./contact.js";
+import { homepage } from "./modules/landing-page-load.js";
+import { menu } from "./modules/menu.js";
+import { contact } from "./modules/contact.js";
 
-landingPageLoad();
+var content = document.getElementById("content");
 
-// Tab Switching Module
-let tabSwitchingModule = (function () {
-  const homeTab = document.querySelector(".home");
-  homeTab.addEventListener("click", landingPageLoad);
+window.addEventListener("load", () => {
+  homepage();
 
-  const menuTab = document.querySelector(".menu");
-  menuTab.addEventListener("click", menu);
+  var menuLink = document.getElementById("menu-link");
+  var contactLink = document.getElementById("contact-link");
+  var toggleLinks = 0;
 
-  const contactTab = document.querySelector(".contact");
-  contactTab.addEventListener("click", contact);
-})();
+  menuLink.addEventListener("click", () => {
+    if (toggleLinks != "menupage") {
+      menu();
+      toggleLinks = "menupage";
+    }
+  });
+
+  contactLink.addEventListener("click", () => {
+    if (toggleLinks != "contactpage") {
+      contact();
+      toggleLinks = "contactpage";
+    }
+  });
+});
