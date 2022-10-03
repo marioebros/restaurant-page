@@ -34,7 +34,7 @@ const homepage = () => {
   var h1 = document.createElement("h1");
 
   homediv.id = "home";
-  h1.innerHTML = `GET THE BEST SEAFOOD IN TOWN <i class="fas fa-fish"></i>`;
+  h1.innerHTML = `Welcome to G's. We've been expecting you. <i class="fas fa-fish"></i>`;
   homediv.appendChild(h1);
 
   //footer
