@@ -42,10 +42,10 @@ const homepage = () => {
   var footP = document.createElement("p");
   var footSpan = document.createElement("span");
 
-  footP.innerHTML = `&copy; Copyright . All rights reserved`;
-  footSpan.innerHTML = `<a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>`;
+  footP.innerHTML = `&copy; Copyright Mario M. Elizalde. All rights reserved`;
+  footSpan.innerHTML = `<a href="../src/assets/facebook-svgrepo-com.svg"><i class="fab fa-facebook-f"></i></a>
+                        <a href="../src/assets/instagram-svgrepo-com.svg"><i class="fab fa-instagram"></i></a>
+                        <a href="../src/assets/twitter-svgrepo-com.svg"><i class="fab fa-twitter"></i></a>`;
 
   foot.appendChild(footP);
   foot.appendChild(footSpan);

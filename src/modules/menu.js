@@ -1,34 +1,34 @@
 var menuArray = [
   {
-    src: "images/1lobster.jpg",
+    src: "../src/assets/poutine-fries-gravy-cheese.jpeg",
     heading: "Poutine",
   },
   {
-    src: "images/2salmon.jpg",
+    src: "../src/assets/49512933098_453b86d005_o.jpeg",
     heading: "Loaded Tater Tots",
   },
   {
-    src: "images/3shrimpsalad.jpg",
+    src: "../src/assets/brooke-lark-UU8sNutRppQ-unsplash.jpeg",
     heading: "Loaded Waffles",
   },
   {
-    src: "images/4oyesters.jpg",
+    src: "../src/assets/klara-kulikova-QATxlTPJImo-unsplash.jpeg",
     heading: "Pizza Autentica",
   },
   {
-    src: "images/5shushi.jpg",
+    src: "../src/assets/antonio-mendes-i5hzQrNBbR0-unsplash.jpeg",
     heading: "Fish & Chips",
   },
   {
-    src: "images/6salad.jpg",
+    src: "../src/assets/vera-davidova-XRcwELmjLgs-unsplash.jpeg",
     heading: "Steak Frites",
   },
   {
-    src: "images/7soup.jpg",
+    src: "../src/assets/alexandra-mendivil-5sD2TgDZOxA-unsplash.jpeg",
     heading: "Chilaquiles Rojos",
   },
   {
-    src: "images/8thainoodles.jpg",
+    src: "../src/assets/shardar-tarikul-islam-X1Wun0nCHOc-unsplash.jpeg",
     heading: "Milkshake",
   },
 ];
@@ -38,7 +38,7 @@ const menu = () => {
   var menuh1 = document.createElement("h1");
   var gridmenu = document.createElement("div");
 
-  menuh1.innerText = "CHECK OUT OUR SPECIALS";
+  menuh1.innerText = "CHECK OUT OUR MENU";
   menuDiv.appendChild(menuh1);
 
   for (var i = 0; i < menuArray.length; i++) {
