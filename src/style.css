@@ -9,19 +9,19 @@ nav{
   left: 0;
   right: 0;
   width: 100%;
-  height: 50px;
-  background-color: white;
+  height: 75px;
+  background-color: black;
   display: flex;
   z-index: 10;
   justify-content: space-between;
   align-items: center;
-  box-shadow:  0 0 5px 0px rgb(168, 167, 167);
+  box-shadow:  0 0 25px 0px rgb(168, 167, 167);
 }
 .logo-con{
   display: block;
   background:  url(../src/assets/134102134-g-letter-simple-elegant-floral-logo-icon-sign-design.webp) center no-repeat;
   background-size: contain;
-  height: 100%;
+  height: 75%;
   width: 100px;
 }
 .nav-links{
@@ -32,16 +32,16 @@ nav{
 }
 .nav-links a{
   text-decoration: none;
-  color: red;
+  color: whitesmoke;
   margin: 0 2vw;
   font-size: 20px;
   transition: color 0.5s;
 }
 .nav-links a:hover{
-  color: rgb(58, 57, 57);
+  color: rgb(245, 245, 245, 0.75);
 }
 #home{
-  margin-top: 50px;
+  margin-top: 25px;
   width: 100%;
   height: 100vh;
   height: calc(100vh - 50px);
@@ -51,13 +51,16 @@ nav{
 }
 #home h1{
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Alice', serif;
   position: absolute;
   top: 20%;
   left: 5%;
   font-size: 7.5vw;
   line-height: 8vw;
   width: 70%;
+  text-shadow: 2px 2px 4px #000000;
+  /* -webkit-text-stroke-width: .05px;
+  -webkit-text-stroke-color: #080808; */
 }
 #home i{
   margin-left: 3vw;
@@ -98,23 +101,27 @@ footer a:hover{
   padding: 10%;
   height: max-content;
   padding-bottom: 10vw;
+  background: linear-gradient(rgba(35,51,41, 0.658), rgba(99,212,113, 0.356)), center no-repeat;
+  background-size: auto;
 }
 #menu h1{
   text-align: center;
   margin-top: 5vw;
-  font-size: 5vw;
-  color: rgb(122, 126, 126);
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 6vw;
+  color: whitesmoke;
+  font-family: 'Mulish', sans-serif;
+  text-shadow: 2px 2px 4px #000000;
 }
 .menu-tile h2{
   margin-top: 1vw;
   margin-left: 1vw;
   font-size: 2.5vw;
-  color: red;
-  font-family: 'Open Sans', sans-serif;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Mulish', sans-serif;
   width: fit-content;
   padding-bottom: 5px;
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #080808;
 }
 .menu-tile img{
   width: 100%;
@@ -123,26 +130,28 @@ footer a:hover{
 }
 .menu-tile {
   height: 25vw;
-  box-shadow: 0 0 10px 2px gray;
+  box-shadow: 0 0 10px 2px #080808;
   margin-bottom: 5vw;
 }
 #contact-div{
   width: 500px;
   height: 50vh;
   padding: 5%;
-  background-color: rgb(184, 187, 184);
+  background: linear-gradient(rgba(35,51,41, 0.658), rgba(99,212,113, 0.356)), center no-repeat;
+  background-size: auto;
   margin: 25vh auto;
 }
 #contact-div form{
   width: 100%;
   height: 60%;
-  background-color: rgb(226, 228, 222);
+  background: linear-gradient(rgba(35,51,41, 0.658), rgba(99,212,113, 0.356)), center no-repeat;
+  background-size: auto;
 }
 #contact-div h1{
   color: rgb(1, 1, 49);
   margin-bottom: 30px;
   padding-top: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Mulish', sans-serif;
   text-align: center;
 }
 form div{
@@ -153,6 +162,8 @@ form div{
 }
 form{
   margin-bottom: 70px;
+  background: linear-gradient(rgba(35,51,41, 0.658), rgba(99,212,113, 0.356)), center no-repeat;
+  background-size: auto;
 }
 form input[type="email"]{
   width: 75%;
@@ -177,8 +188,8 @@ form input[type="submit"]{
   margin: 10px auto;
 }
 form input[type="submit"]:hover{
-  background-color: red;
-  border: 2px solid red;
+  background-color: rgba(8,8,8,0.75);
+  border: 2px solid #080808;
 }
 
 @media (max-width:700px){

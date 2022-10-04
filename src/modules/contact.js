@@ -6,7 +6,7 @@ const contact = () => {
   var inputEmail = document.createElement("input");
   var inputSub = document.createElement("input");
 
-  formh1.innerText = "SIGN UP FOR FOOD UPDATES";
+  formh1.innerText = "SIGN UP FOR SPECIALS";
   inputEmail.setAttribute("type", "email");
   inputEmail.setAttribute("placeholder", "Enter your email");
   inputSub.setAttribute("type", "submit");
@@ -19,8 +19,8 @@ const contact = () => {
 
   var p1 = document.createElement("p");
   var p2 = document.createElement("p");
-  p1.innerText = "221B Baker Street";
-  p2.innerText = "344-5345-4554";
+  p1.innerText = "1234 East Los Angeles Avenue";
+  p2.innerText = "818-545-4554";
 
   contactDiv.appendChild(form);
   contactDiv.appendChild(p1);

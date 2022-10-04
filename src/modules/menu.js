@@ -38,7 +38,7 @@ const menu = () => {
   var menuh1 = document.createElement("h1");
   var gridmenu = document.createElement("div");
 
-  menuh1.innerText = "CHECK OUT OUR SPECIALS";
+  menuh1.innerText = "CHECK OUT OUR MENU";
   menuDiv.appendChild(menuh1);
 
   for (var i = 0; i < menuArray.length; i++) {
