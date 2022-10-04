@@ -1,6 +1,6 @@
 var menuArray = [
   {
-    src: "images/1lobster.jpg",
+    src: "../src/assets/poutine-fries-gravy-cheese.jpeg",
     heading: "Poutine",
   },
   {
