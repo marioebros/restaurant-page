@@ -24,11 +24,11 @@ var menuArray = [
     heading: "Steak Frites",
   },
   {
-    src: "../src/assets/",
+    src: "../src/assets/alexandra-mendivil-5sD2TgDZOxA-unsplash.jpeg",
     heading: "Chilaquiles Rojos",
   },
   {
-    src: "../src/assets/",
+    src: "../src/assets/shardar-tarikul-islam-X1Wun0nCHOc-unsplash.jpeg",
     heading: "Milkshake",
   },
 ];
