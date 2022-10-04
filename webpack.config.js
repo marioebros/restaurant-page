@@ -9,5 +9,11 @@ module.exports = {
   },
   module: {
     rules: [{ test: /\.txt$/, use: "raw-loader" }],
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
   },
 };
