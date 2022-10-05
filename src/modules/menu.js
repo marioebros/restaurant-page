@@ -1,10 +1,10 @@
 var menuArray = [
   {
-    src: "../src/assets/poutine-fries-gravy-cheese.jpeg",
+    src: "assets/poutine-fries-gravy-cheese.jpeg",
     heading: "Poutine",
   },
   {
-    src: "../src/assets/49512933098_453b86d005_o.jpeg",
+    src: "assets/49512933098_453b86d005_o.jpeg",
     heading: "Loaded Tater Tots",
   },
   {

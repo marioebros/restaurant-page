@@ -1,6 +1,7 @@
 import { homepage } from "./modules/landing-page-load.js";
 import { menu } from "./modules/menu.js";
 import { contact } from "./modules/contact.js";
+import "../src/style.css";
 
 var content = document.getElementById("content");
 

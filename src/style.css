@@ -137,8 +137,8 @@ footer a:hover{
 #contact-div{
   width: 500px;
   height: 50vh;
-  padding: 15%;
-  background: linear-gradient(rgba(35,51,41, 0.658), rgba(99,212,113, 0.356)), url(assets/14704985_1748000432131857_8641446346689085440_n.jpeg) center no-repeat;
+  padding: 115%;
+  background: linear-gradient(rgba(35,51,41, 0.658), rgba(99,212,113, 0.356)), url(assets/14704985_1748000432131857_8641446346689085440_n.jpeg) url(assets/14704985_1748000432131857_8641446346689085440_n.jpeg) center no-repeat;
   background-size: auto;
   margin: 0 auto;
 }
@@ -149,10 +149,10 @@ footer a:hover{
 }
 #contact-div h1{
   color: whitesmoke;
-  text-shadow: 2px 2px 4px #000000;
   margin-bottom: 30px;
   padding-top: 15px;
   font-family: 'Alice', serif;
+  text-shadow: 2px 2px 4px #000000;
   text-align: center;
 }
 form div{
@@ -163,8 +163,6 @@ form div{
 }
 form{
   margin-bottom: 70px;
-  background: linear-gradient(rgba(35,51,41, 0.658), rgba(99,212,113, 0.356)), center no-repeat ;
-  background-size: auto;
 }
 form input[type="email"]{
   width: 75%;
