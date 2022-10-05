@@ -1,34 +1,43 @@
+import poutineImage from "../assets/poutine-fries-gravy-cheese.jpeg";
+import loadedTotsImage from "../assets/49512933098_453b86d005_o.jpeg";
+import loadedWafflesImage from "../assets/brooke-lark-UU8sNutRppQ-unsplash.jpeg";
+import pizzaAutenticaImage from "../assets/klara-kulikova-QATxlTPJImo-unsplash.jpeg";
+import fishChipsImage from "../assets/antonio-mendes-i5hzQrNBbR0-unsplash.jpeg";
+import steakFritesImage from "../assets/vera-davidova-XRcwELmjLgs-unsplash.jpeg";
+import chilaquilesRojosImage from "../assets/alexandra-mendivil-5sD2TgDZOxA-unsplash.jpeg";
+import milkshakeImage from "../assets/shardar-tarikul-islam-X1Wun0nCHOc-unsplash.jpeg";
+
 var menuArray = [
   {
-    src: "assets/poutine-fries-gravy-cheese.jpeg",
+    src: poutineImage,
     heading: "Poutine",
   },
   {
-    src: "assets/49512933098_453b86d005_o.jpeg",
+    src: loadedTotsImage,
     heading: "Loaded Tater Tots",
   },
   {
-    src: "../src/assets/brooke-lark-UU8sNutRppQ-unsplash.jpeg",
+    src: loadedWafflesImage,
     heading: "Loaded Waffles",
   },
   {
-    src: "../src/assets/klara-kulikova-QATxlTPJImo-unsplash.jpeg",
+    src: pizzaAutenticaImage,
     heading: "Pizza Autentica",
   },
   {
-    src: "../src/assets/antonio-mendes-i5hzQrNBbR0-unsplash.jpeg",
+    src: fishChipsImage,
     heading: "Fish & Chips",
   },
   {
-    src: "../src/assets/vera-davidova-XRcwELmjLgs-unsplash.jpeg",
+    src: steakFritesImage,
     heading: "Steak Frites",
   },
   {
-    src: "../src/assets/alexandra-mendivil-5sD2TgDZOxA-unsplash.jpeg",
+    src: chilaquilesRojosImage,
     heading: "Chilaquiles Rojos",
   },
   {
-    src: "../src/assets/shardar-tarikul-islam-X1Wun0nCHOc-unsplash.jpeg",
+    src: milkshakeImage,
     heading: "Milkshake",
   },
 ];
