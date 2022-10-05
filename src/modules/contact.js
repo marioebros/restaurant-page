@@ -1,3 +1,5 @@
+import genSmile from "../assets/14704985_1748000432131857_8641446346689085440_n.jpeg";
+
 const contact = () => {
   var contactDiv = document.createElement("div");
   var form = document.createElement("form");
@@ -26,6 +28,12 @@ const contact = () => {
   contactDiv.appendChild(p1);
   contactDiv.appendChild(p2);
   contactDiv.id = "contact-div";
+  contactDiv.src = genSmile;
+
+  // Add image to out existing div.
+  // const genSmile = new Image();
+
+  // element.appendChild();
 
   var nav = document.querySelector("nav");
   var foot = document.querySelector("footer");
