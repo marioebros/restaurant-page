@@ -8,8 +8,12 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
   module: {
-    rules: [{ test: /\.txt$/, use: "raw-loader" }],
+    // rules: [{ test: /\.txt$/, use: "raw-loader" }],
     rules: [
+      {
+        test: /\.txt$/,
+        use: "raw-loader",
+      },
       {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
