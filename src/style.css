@@ -243,3 +243,27 @@ form input[type="submit"]:hover{
       word-spacing: 1vw;
   }
 }
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+  #home h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  #home {
+    height: 80vh;
+    width: 100vw;
+  }
+  #grid-menu {
+    place-items:  center;
+  }
+  .menu-tile {
+    height: 50vh;
+    width: 75vw;
+    align-items: center;
+  }
+  #contact-div {
+    height: 75vh;
+    width: 70vw;
+  }
+}
